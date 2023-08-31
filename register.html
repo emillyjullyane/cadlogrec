@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <section>
+        <header>
+        </header>
+        <main>
+            <div id="containerLOG">
+                <div id="register">
+                    <p>Register</p>
+                </div>
+
+                <div id="containerLOG2">
+
+                    <div class="containerLOG3">
+                        <div class="itens">
+                            <label for="full_name">Full name:</label>
+                            <input class="digitar" type="text" value=" example: Maria Luiza da Silva" id="full_name"
+                            onfocus="if (this.value==' example: Maria Luiza da Silva') this.value='';" 
+                            onblur="if (this.value=='') this.value=' example: Maria Luiza da Silva'" minlength="5" maxlength="10" required/>
+                        </div>
+
+                        <div class="itens">
+                            <label for="date_birth">Date of birth</label>
+                            <input class="digitar" type="date" value="Date of birth" id="date_birth">
+                        </div>
+                    </div>
+
+                    <div class="containerLOG3">
+                        <div class="itens" id="log1">
+                            <label for="phone">Phone:</label>
+                            <input class="digitar" type="number" value="Phone:" id="phone">
+                        </div>
+
+                        <div class="itens">
+                            <label for="">Region:</label>
+                            <select name="plataforma" id="region" required class="digitar">
+                                <option value="gender">Select a region</option>
+                                    <option value="east">East</option>
+                                    <option value="north">North</option>
+                                    <option value="south">South</option>
+                                    <option value="west">West</option>
+                            </select>
+                        </div>
+                    </div>
+ 
+                    <div class="containerLOG3">
+                        <div class="containerLOG4">
+                            <label for="generos" id="gen">Gender:</label>
+                            <div class="choose">
+                                <input type="radio" name="G" id="f" class="radios">
+                                <label for="f" class="labels">Feminine</label>
+                            </div>
+                            <div class="choose">
+                                <input type="radio" name="G" id="m" class="radios">
+                                <label for="m" class="labels">Masculine</label>
+                            </div>
+                            <div class="choose">
+                                <input type="radio" name="G" id="o" class="radios">
+                                <label for="o" class="labels">Other</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="containerLOG3" id="check">
+                        <div class="checkboxs">
+                            <input type="checkbox" name="" id="" class="checkbox">
+                            <p class="labels">I read the terms</p>
+                        </div>
+                        <div class="checkboxs">
+                            <input type="checkbox" name="" id="" class="checkbox">
+                            <p class="labels">I agree with the terms</p>
+                        </div>
+                    </div>
+
+                    <div class="containerLOG3" id="log5">
+                        <div class="containerLOG5">
+                            <input id="botao" type="submit" value="Enter">
+                            <a class="texts" href="index.html">I already have registration. Log in</a>
+                        </div>
+                    </div>
+
+                    <!-- <div id="campos">
+                        <form action="">
+
+                            <div id="user">
+                                <div class="titulo">Full name:</div>
+                                <label for="full_name"></label>
+                                <input class="digitar" type="text" value=" Full name" 
+                                    onfocus="if (this.value==' Full name') this.value='';" 
+                                    onblur="if (this.value=='') this.value=' Full name'"required/>
+                            </div>
+
+                            <div id="date">
+                                <div class="titulo">Date of birth:</div>
+                                <label for="date_birth"></label>
+                                <input class="digitar" type="date" value=" Date of birth" 
+                                    onfocus="if (this.value==' Date of birth') this.value='';" 
+                                    onblur="if (this.value=='') this.value=' Date of birth'" required/>
+                            </div>
+
+                            <div id="phone">
+                                <div class="titulo">Phone:</div>
+                                <label for="phone"></label>
+                                <input class="digitar" type="number" value=" Phone:" 
+                                    onfocus="if (this.value==' Phone') this.value='';" 
+                                    onblur="if (this.value=='') this.value=' Phone'" required/>
+                            </div>
+                            
+
+                            <input id="botao" type="submit" value="Enter">
+                            <a class="texts" href="index.html">I already have registration. Log in</a>
+                        </form>
+                    </div>
+                    <div id="tema">
+                        
+                        <form action="">
+                            
+                            <div id="selregiao">
+                                <div class="titulo">Region:</div>
+                                <select id="region" name="plataforma" required="required" minlength="5" maxlength="10">
+                                    <option value="gender">Select a region</option>
+                                    <option value="east">East</option>
+                                    <option value="north">North</option>
+                                    <option value="south">South</option>
+                                    <option value="west">West</option>
+                            </div>
+
+                            <div id="gender">
+                                <div class="titulo">Gender:</div>
+                                    <div class="choose">
+                                        <input type="radio" name="G" id="f">
+                                        <label for="f">Feminino</label>
+                                    </div>
+                                    <div class="choose">
+                                        <input type="radio" name="G" id="m">
+                                        <label for="m">Masculino</label>
+                                    </div>
+                                    <div class="choose">
+                                        <input type="radio" name="G" id="o">
+                                        <label for="o">Outro</label>
+                                    </div>
+                            </div>
+
+                            <input id="botao" type="submit" value="Enter">
+                            <a class="texts" href="index.html">I already have registration. Log in</a>
+                        </form>
+                    </div>-->
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </section>
+</body>
+</html>

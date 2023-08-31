@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    background: linear-gradient(43deg, #202645 0%, #463451 46.00%, #452638 100%);
+
+}
+#containerLOG{
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    box-shadow: 0px 0px 7px 0.5px #664d76 ;
+    background-color: #070709;
+}
+
+#dv{
+    width: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+#sign{
+    font-family: DM Sans;
+    font-weight:700;
+    font-size: 28px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 0;
+}
+
+#campos{
+    background-color: #070709;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px 0px 0px 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#tema{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+#degrade2{
+    width: 300px;
+    height: 350px;
+    position: relative;
+}
+
+.texts{
+    color: rgb(165, 130, 192);
+    font-size: 11px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    font-family: DM Sans;
+    margin-top: 3px;
+
+}
+
+.texts:hover{
+    color: rgb(180, 168, 189);
+}
+
+form{
+    justify-content: center;
+    display:grid;
+    height: 25vh;
+    width: 300px;
+    height: 220px;
+}
+
+input{
+    color:#ffffff;
+    font-size: 12px;
+    border-radius: 7px;
+    border: none;
+    width: 180px;
+    height: 25px;
+    background: linear-gradient(43deg, #202645 0%, #463451 46.00%, #452638 100%);
+}
+
+#botao{
+    cursor: pointer;
+    width: 184px;
+}
+
+#botao:hover{
+    color: rgb(165, 130, 192);
+}
+
+.titulo{
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(189, 172, 172);
+}
+
+.digitar{
+    background: #2c2c2e;
+    color: rgb(109, 106, 112);
+    margin-bottom: 5px;
+}
+
+.digitar:hover{
+    box-shadow: 0px 0px 7px 0.5px #664d76 ;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+        </header>
+        <main>
+            <div id="containerLOG">
+                <div id="campos">
+                    <h1 id="sign">Sign in to continue</h1>
+                    <form action="">
+                        <div id="user">
+                            <div class="titulo">User:</div>
+                            <label for="enter_user"></label>
+                            <input class="digitar" type="text" value=" @magicgames123" 
+                                onfocus="if (this.value==' @magicgames123') this.value='';" 
+                                onblur="if (this.value=='') this.value=' @magicgames123'"required/>
+                        </div>
+                        <div id="password">
+                            <div class="titulo">Password:</div>
+                            <label for="enter_password"></label>
+                            <input class="digitar" type="password" value=" Password" 
+                                onfocus="if (this.value==' Password') this.value='';" 
+                                onblur="if (this.value=='') this.value=' Password'" minlength="5" maxlength="10" required/>
+                                <a class="texts" href="forgot_password.html">Forgot password?</a>
+                        </div>
+                        <input id="botao" type="submit" value="Enter">
+                        <a class="texts" href="register.html">Don't have an account? Register</a>
+                    </form>
+                </div>
+                <div id="tema">
+                    <img id="degrade2" src="img/degrade2.png" alt="imagem degrade">
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </section>
+</body>
+</html>
